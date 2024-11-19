@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playpen+Sans:wght@100..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--slate-300);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  height: 100vh;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: var(--white);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.text-container {
+  padding: 0 16px;
+}
+
+.title {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  color: var(--slate-900);
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--slate-500);
+}
